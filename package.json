@@ -1,0 +1,21 @@
+{
+  "name": "surfgram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express and React Native and React nad Prisma",
+  "repository": "https://github.com/eo210802/surfgram",
+  "author": "eo21080 <eo21080@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
