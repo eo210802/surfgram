@@ -1,0 +1,6 @@
+endpoint: https://eu1.prisma.sh/eo210802-3ec51b/surfgram/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
